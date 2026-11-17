@@ -4,7 +4,7 @@ import { Observable, catchError, of } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { CatalogItem, Customer, Order } from '../models/erp.models';
 
-@Injectable({ providedIn: 'root' })
+@Injectable({ providedIn: 'root' })           
 export class ApiService {
   private http = inject(HttpClient);
   private baseUrl = environment.apiUrl;
