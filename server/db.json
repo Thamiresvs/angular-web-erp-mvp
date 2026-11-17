@@ -1,0 +1,104 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Padaria Estrela do Sul Ltda",
+      "document": "12.345.678/0001-90",
+      "email": "contato@estreladosul.com.br",
+      "phone": "(21) 99876-5432",
+      "segment": "Comércio"
+    },
+    {
+      "id": "2",
+      "name": "Clínica Odontológica Sorriso",
+      "document": "98.765.432/0001-10",
+      "email": "financeiro@clinicasorriso.com.br",
+      "phone": "(21) 98765-4321",
+      "segment": "Serviços"
+    },
+    {
+      "id": "ff73",
+      "name": "Da Silva Moveis",
+      "document": "57.866.116/0001-25",
+      "email": "moveis.da.silva@outlook.com",
+      "phone": "",
+      "segment": "Comércio"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "1",
+      "sku": "PRD-001",
+      "name": "Terminal PDV Touch 15\"",
+      "type": "PRODUCT",
+      "price": 1850,
+      "stock": 14
+    },
+    {
+      "id": "2",
+      "sku": "SRV-001",
+      "name": "Consultoria & Implantação Fiscal",
+      "type": "SERVICE",
+      "price": 650,
+      "stock": null
+    },
+    {
+      "id": "3",
+      "sku": "PRD-002",
+      "name": "Leitor de Código de Barras Sem Fio",
+      "type": "PRODUCT",
+      "price": 320,
+      "stock": 4
+    },
+    {
+      "id": "4e15",
+      "sku": "PDE",
+      "name": "Teste de sofá",
+      "type": "PRODUCT",
+      "price": 1590,
+      "stock": 9
+    }
+  ],
+  "orders": [
+    {
+      "id": "101",
+      "customerId": "1",
+      "customerName": "Padaria Estrela do Sul Ltda",
+      "itemName": "Terminal PDV Touch 15\"",
+      "quantity": 2,
+      "total": 3700,
+      "status": "PAID",
+      "createdAt": "2026-11-10"
+    },
+    {
+      "id": "102",
+      "customerId": "2",
+      "customerName": "Clínica Odontológica Sorriso",
+      "itemName": "Consultoria & Implantação Fiscal",
+      "quantity": 1,
+      "total": 650,
+      "status": "PAID",
+      "createdAt": "2026-11-15"
+    },
+    {
+      "id": "36e8",
+      "customerId": "1",
+      "customerName": "Padaria Estrela do Sul Ltda",
+      "itemName": "Consultoria & Implantação Fiscal",
+      "quantity": 1,
+      "total": 650,
+      "status": "PAID",
+      "createdAt": "2026-11-17"
+    },
+    {
+      "id": "e4e5",
+      "customerId": "ff73",
+      "customerName": "Da Silva Moveis",
+      "itemName": "Teste de sofá",
+      "quantity": 1,
+      "total": 1590,
+      "status": "PENDING",
+      "createdAt": "2026-11-17"
+    }
+  ]
+}
